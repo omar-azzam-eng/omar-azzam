@@ -41,18 +41,12 @@ const HeroSection = () => {
         </p>
 
         {/* CTA */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up opacity-0 delay-300">
+        <div className="flex justify-center items-center animate-slide-up opacity-0 delay-300">
           <a
             href="#contact"
             className="px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all glow-hover"
           >
             Get in Touch
-          </a>
-          <a
-            href="#skills"
-            className="px-8 py-4 rounded-lg border border-border text-foreground font-semibold hover:bg-secondary transition-all"
-          >
-            View Skills
           </a>
         </div>
       </div>
