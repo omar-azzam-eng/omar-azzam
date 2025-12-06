@@ -1,10 +1,15 @@
-import { Database, Code, Shield, Server, Layers, Zap } from "lucide-react";
+import { Database, Code, Shield, Server, Layers, Zap, FileCode } from "lucide-react";
 
 const skills = [
   {
     icon: Code,
     title: "JavaScript",
     description: "Server-side development with Node.js, Express, and modern JS frameworks.",
+  },
+  {
+    icon: FileCode,
+    title: "Python",
+    description: "Backend development with Django, Flask, and data processing scripts.",
   },
   {
     icon: Database,
@@ -86,7 +91,7 @@ const SkillsSection = () => {
               <span className="text-primary">const</span> developer = {`{`}{"\n"}
               {"  "}name: <span className="text-green-400">"Omar Azzam"</span>,{"\n"}
               {"  "}role: <span className="text-green-400">"Backend Developer"</span>,{"\n"}
-              {"  "}skills: [<span className="text-green-400">"JavaScript"</span>, <span className="text-green-400">"MySQL"</span>, <span className="text-green-400">"PostgreSQL"</span>, <span className="text-green-400">"APIs"</span>],{"\n"}
+              {"  "}skills: [<span className="text-green-400">"JavaScript"</span>, <span className="text-green-400">"Python"</span>, <span className="text-green-400">"MySQL"</span>, <span className="text-green-400">"PostgreSQL"</span>],{"\n"}
               {"  "}available: <span className="text-primary">true</span>{"\n"}
               {`}`};
             </code>
