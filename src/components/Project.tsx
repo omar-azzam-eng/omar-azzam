@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
           <div className="flex justify-around">
             <a
-              href="/project.pdf"
+              href="./project.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-block"
@@ -67,23 +67,6 @@ const Projects = () => {
                 </Button>
               </span>
             </a>
-            {/* <a
-              href="/project.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block"
-            >
-              <span>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="flex items-center gap-2 transition-all"
-                >
-                  <EyeIcon className="w-4 h-4" />
-                  View Project in English
-                </Button>
-              </span>
-            </a> */}
           </div>
         </div>
       </div>
