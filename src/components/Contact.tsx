@@ -1,5 +1,4 @@
 import { Mail, Phone, Send } from "lucide-react";
-
 const ContactSection = () => {
   return (
     <section id="contact" className="relative py-32 px-6">
@@ -29,7 +28,7 @@ const ContactSection = () => {
               <span className="text-muted-foreground text-sm block mb-1">
                 Email
               </span>
-              <span className="font-mono text-foreground md:text-lg">
+              <span className="font-mono text-foreground md:text-lg text-md">
                 omar.azzam.eng@gmail.com
               </span>
             </div>
