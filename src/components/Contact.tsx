@@ -1,5 +1,6 @@
 import { Mail, Phone, Send } from "lucide-react";
 
+
 const ContactSection = () => {
   return (
     <section id="contact" className="relative py-32 px-6">
