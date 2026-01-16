@@ -15,7 +15,6 @@ const HeroSection = () => {
         }}
       />
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        {/* Terminal badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-slide-up opacity-0">
           <Terminal className="w-4 h-4 text-primary" />
           <span className="font-mono text-sm text-muted-foreground">
@@ -23,13 +22,11 @@ const HeroSection = () => {
           </span>
         </div>
 
-        {/* Name */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-slide-up opacity-0 delay-100">
           <span className="text-foreground">Omar</span>{" "}
           <span className="gradient-text">Azzam</span>
         </h1>
 
-        {/* Tagline */}
         <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-2xl mx-auto mb-12 animate-slide-up opacity-0 delay-200">
           Building robust, scalable, and secure backend systems.
           <br />

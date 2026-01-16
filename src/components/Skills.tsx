@@ -3,9 +3,13 @@ import {
   Code,
   Shield,
   Server,
-  Layers,
-  Zap,
   FileCode,
+  BarChart3,
+  Container,
+  GitBranch,
+  KeyRound,
+  ShieldCheck,
+  Network,
 } from "lucide-react";
 
 const skills = [
@@ -13,43 +17,79 @@ const skills = [
     icon: Code,
     title: "JavaScript",
     description:
-      "Server-side development with Node.js, Express, and modern JS frameworks.",
+      "Server-side development with Node.js, Express, and modern JavaScript frameworks.",
   },
   {
     icon: FileCode,
     title: "Python",
     description:
-      "Backend development with Django, Flask, and data processing scripts.",
+      "Backend development using Django and Flask, plus scripting and automation.",
+  },
+  {
+    icon: BarChart3,
+    title: "Data Analysis",
+    description:
+      "Data analysis using Python, Pandas, and data visualization techniques.",
+  },
+  {
+    icon: Container,
+    title: "Docker",
+    description:
+      "Containerizing applications and managing multi-service environments with Docker Compose.",
+  },
+  {
+    icon: Database,
+    title: "NoSQL Databases",
+    description:
+      "Working with MongoDB and Redis for scalable, high-performance data storage.",
   },
   {
     icon: Database,
     title: "MySQL",
     description:
-      "Relational database design, optimization, and complex query writing.",
+      "Relational database design, queries, and performance optimization.",
   },
   {
-    icon: Layers,
+    icon: Network,
+    title: "RESTful APIs",
+    description:
+      "Designing and building RESTful APIs with proper architecture and best practices.",
+  },
+  {
+    icon: Database,
     title: "PostgreSQL",
     description:
       "Advanced PostgreSQL features, indexing strategies, and performance tuning.",
   },
   {
+    icon: KeyRound,
+    title: "JWT Authentication",
+    description:
+      "Secure authentication and authorization using JSON Web Tokens.",
+  },
+  {
+    icon: GitBranch,
+    title: "Git",
+    description:
+      "Version control, branching strategies, and collaborative workflows.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Zod",
+    description:
+      "Type-safe schema validation for APIs and frontend-backend integration.",
+  },
+  {
     icon: Server,
     title: "Database Management",
     description:
-      "Schema design, migrations, backups, and database administration.",
-  },
-  {
-    icon: Zap,
-    title: "API Development",
-    description:
-      "RESTful APIs, GraphQL, authentication, and third-party integrations.",
+      "Database administration, backups, migrations, and monitoring.",
   },
   {
     icon: Shield,
     title: "Security",
     description:
-      "SQL injection prevention, input validation, and secure coding practices.",
+      "Input validation, SQL injection prevention, authentication, and secure coding practices.",
   },
 ];
 
@@ -110,7 +150,11 @@ const SkillsSection = () => {
               <span className="text-green-400">"JavaScript"</span>,{" "}
               <span className="text-green-400">"Python"</span>,{" "}
               <span className="text-green-400">"MySQL"</span>,{" "}
-              <span className="text-green-400">"PostgreSQL"</span>],{"\n"}
+              <span className="text-green-400">"PostgreSQL"</span>,{" "}
+              <span className="text-green-400">"Docker"</span>,{" "}
+              <span className="text-green-400">"RESTful APIs"</span>,{" "}
+              <span className="text-green-400">"JWT Authentication"</span>,{" "}
+              <span className="text-green-400">"Database Management"</span>],{"\n"}
               {"  "}available: <span className="text-primary">true</span>
               {"\n"}
               {`}`};

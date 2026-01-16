@@ -35,7 +35,7 @@ const ContactSection = () => {
             </div>
           </a>
           <a
-            href="tel:0959984200"
+            href="tel:+963959984200"
             className="group p-8 rounded-xl glass glow-hover flex items-center gap-6"
           >
             <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors shrink-0">
@@ -46,7 +46,7 @@ const ContactSection = () => {
                 Phone
               </span>
               <span className="font-mono text-foreground text-lg">
-                0959984200
+                +963959984200
               </span>
             </div>
           </a>
@@ -64,7 +64,7 @@ const ContactSection = () => {
       <footer className="relative z-10 mt-32 text-center">
         <div className="h-px w-full max-w-md mx-auto bg-gradient-to-r from-transparent via-border to-transparent mb-8" />
         <p className="font-mono text-sm text-muted-foreground">
-          © 2024 Omar Azzam. Built with passion.
+          © 2025 Omar Azzam. All rights reserved.
         </p>
       </footer>
     </section>
