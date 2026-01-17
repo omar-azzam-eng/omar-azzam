@@ -30,7 +30,7 @@ const ContactSection = () => {
               <span className="text-muted-foreground text-sm block mb-1">
                 Email
               </span>
-              <span className="font-mono text-foreground text-lg">
+              <span className="font-mono text-foreground text-sm md:text-lg">
                 omar.azzam.eng@gmail.com
               </span>
             </div>
